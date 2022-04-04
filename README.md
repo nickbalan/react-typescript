@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# Simple To-Do List App using ReactJS & TypeScript
+
+## Objective
+
+Simple To-Do List App demonstrates that TypeScript is not limited to Angular or plain JavaScript projects; we may also use it in ReactJS projects. Typescript provides the tools to define strict types for ReactJS components, props, states, and event handlers.
+
+## User Stories
+
+- As a user, I want to be able to add or delete on the To-Do list
+- As a user, I want to be able to define strict types for ReactJS components, props, states, and event handlers using Typescript.
+
+## Key Features
+
+- Add items to the To-Do list
+- Delete items from the To-Do list.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
