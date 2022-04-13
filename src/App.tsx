@@ -37,7 +37,7 @@ const App: FC = () => {
         <div className="inputContainer">
           <input
             type="text"
-            placeholder="Task..."
+            placeholder="Write a task and how many days until the deadline"
             name="task"
             value={task}
             onChange={handleChange}

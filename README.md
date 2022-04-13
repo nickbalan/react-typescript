@@ -1,4 +1,4 @@
-# Simple To-Do List App using ReactJS & TypeScript
+# Simple To-Do List App using ReactJS & TypeScript. Technical Case Study
 
 ## Objective
 A Simple To-Do List App demonstrates that TypeScript is not limited to Angular or plain JavaScript projects; we may also use it in ReactJS projects. Typescript provides the tools to define strict types for ReactJS components, props, states, and event handlers.
@@ -8,12 +8,20 @@ A Simple To-Do List App demonstrates that TypeScript is not limited to Angular o
 - As a user, I should be able to delete a task on the To-Do list after completion
 - As a web developer, I should be able to define strict types for ReactJS components, props, states, and event handlers using Typescript.
 
+## Technical Requirements & Solutions
+- The application must be built using ReactJS with TypeScript
+- The application must use types and interfaces provided in TypeScript
+- The application must declare types for states and props in functional or class base components
+- The application must use event types in React
+- The application requires the latest version of Node.js and npm package
+- The project's code must be hosted on GitHub
+
 ## Key Features
 - Add items to the To-Do list
 - Delete items from the To-Do list after completion.
 
-## Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to create a React App with TypeScript
+This project was bootstrapped with [Create React App with TypeScript](https://create-react-app.dev/docs/adding-typescript/).
 
 ## Available Scripts
 In the project directory, you can run:
@@ -52,3 +60,7 @@ You don’t have ever to use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 Check out the [React documentation](https://reactjs.org/) to learn React.
+
+## Simple To-Do List App using ReactJS & TypeScript screenshot
+
+![Livescreen](src/img/React_TypeScript_Livescreen_1.JPG)
