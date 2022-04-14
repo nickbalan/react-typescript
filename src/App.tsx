@@ -3,19 +3,27 @@ import "./App.css";
 import TodoTask from "./Components/TodoTask";
 import { ITask } from "./Interfaces";
 
+/* App: FC - Defines type of the App function as FunctionComponent (FC) in React */ 
 const App: FC = () => {
-  const [task, setTask] = useState<string>("");
+  /* Defines the types for useState<> */
+  const [task, setTask] = useState<string>(""); 
   const [deadline, setDealine] = useState<number>(0);
+  /* Defines the types for useState as an array of ITask interface */
   const [todoList, setTodoList] = useState<ITask[]>([]);
 
+  /* Defines the type for the event. ChangeEvent<HTMLInputElement> - represent any events that involves changes and inputs of the HTML input elements*/
+  /* Sets the return type of the function to void - this function is not returning anything  */
   const handleChange = (event: ChangeEvent<HTMLInputElement>): void => {
     if (event.target.name === "task") {
       setTask(event.target.value);
     } else {
+      /* converts into a number */
       setDealine(Number(event.target.value));
     }
   };
 
+  /* Sets the return type of the function to void - this function is not returning anything  */
+  /* Adds the tasks */
   const addTask = (): void => {
     const newTask = { taskName: task, deadline: deadline };
     setTodoList([...todoList, newTask]);
@@ -23,6 +31,8 @@ const App: FC = () => {
     setDealine(0);
   };
 
+  /* Sets the return type of the function to void - this function is not returning anything  */
+  /* Deletes the tasks */
   const completeTask = (taskNameToDelete: string): void => {
     setTodoList(
       todoList.filter((task) => {
