@@ -3,10 +3,20 @@
 ## Objective
 A Simple To-Do List App demonstrates that TypeScript is not limited to Angular or plain JavaScript projects; we may also use it in ReactJS projects. Typescript provides the tools to define strict types for ReactJS components, props, states, and event handlers.
 
+## My Role
+- Full-Stack Web Developer
+
+## The 5 W's
+- Who? — The developers would want to understand the TypeScript within ReactJS
+- What? — A Simple To-Do List App demonstrates that TypeScript is not limited to Angular or plain JavaScript projects; we may also use it in ReactJS projects.
+- When? — Users or developers may use the app codebase whenever they want to understand key features of TypeScript within a React App
+- Where? — The Simple To-Do List App is hosted in a GitHub repository as a codebase with a relevant, straightforward documentation
+- Why? — The app demonstrates my understanding of TypeScript within ReactJS and my ability to create straightforward documentation for other developers to follow through with it.
+
 ## User Stories
 - As a user, I should be able to add a task on To-Do list
 - As a user, I should be able to delete a task on the To-Do list after completion
-- As a web developer, I should be able to define strict types for ReactJS components, props, states, and event handlers using Typescript.
+- As a web developer, I should be able to understand how to define and use strict types for ReactJS components, props, states, and event handlers using Typescript.
 
 ## Technical Requirements & Solutions
 - The application must be built using ReactJS with TypeScript
